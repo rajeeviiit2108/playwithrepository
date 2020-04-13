@@ -1,0 +1,2 @@
+[default]
+aws_secret_access_key = ilUkeK03699obzKVjUuqs97vPJs0pp+wuG/n62oO
