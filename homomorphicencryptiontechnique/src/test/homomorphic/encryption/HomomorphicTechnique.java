@@ -43,6 +43,7 @@ public class HomomorphicTechnique {
 	}
 
 	public void KeyGeneration(int bitLengthVal, int certainty, BigInteger a, BigInteger b) {
+		System.out.println("Inside key generation method");
 		bitLength = bitLengthVal;
 		p = a;
 		q = b;
