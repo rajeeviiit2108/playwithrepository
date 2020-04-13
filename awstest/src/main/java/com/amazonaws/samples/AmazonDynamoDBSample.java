@@ -94,6 +94,7 @@ public class AmazonDynamoDBSample {
             .withCredentials(credentialsProvider)
             .withRegion("us-west-2")
             .build();
+			System.out.println("Inside init---end");
     }
 
     public static void main(String[] args) throws Exception {
