@@ -79,6 +79,7 @@ public class AmazonDynamoDBSample {
          * credential profile by reading from the credentials file located at
          * (C:\\Users\\earnjra\\.aws\\credentials).
          */
+		 System.out.println("Inside init");
         ProfileCredentialsProvider credentialsProvider = new ProfileCredentialsProvider();
         try {
             credentialsProvider.getCredentials();
